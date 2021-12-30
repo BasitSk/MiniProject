@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripify Login Page</title>
+    <script src="login.js"></script>
+  </head>
+  <link rel="stylesheet" href="Pro.css" />
+
+  <style>
+    body {
+      background-color: #232323;
+    }
+
+    .im5 {
+      height: 40px;
+      border-radius: 8px;
+      width: 400px;
+      margin-bottom: 15px;
+    }
+    .im6 {
+      border-radius: 10%;
+      height: 40px;
+      width: 150px;
+      cursor: pointer;
+    }
+    .im7 {
+      border-radius: 8px;
+      width: 40%;
+      height: 40vh;
+    }
+  </style>
+  <body>
+    <h1 align="center" style="background-color: #232323">
+      <img class="a2" src="newlogo.jpg" alt="" /><sup>
+        <big style="background-color: #232323; color: aliceblue">Tripify.</big>
+      </sup>
+    </h1>
+    <h3 align="center" style="color: aliceblue">
+      Tripify helps you connect and share travel stories with the people in your
+      life.
+    </h3>
+
+    <table align="center" class="im7">
+      <tr
+        height="200"
+        width="500"
+        style="background-color: rgba(124, 133, 141, 0.541); margin-top: 28px"
+      >
+        <td align="center" class="im7">
+          <input
+            class="im5"
+            type="text"
+            placeholder="Email address or phone number"
+            id="email"
+          />
+          <br />
+          <input
+            class="im5"
+            type="password"
+            placeholder="Password"
+            id="password"
+          />
+          <br />
+          <div id="div">
+            <button
+              id="btn"
+              onclick="login2()"
+              style="background-color: rgb(0, 3, 8); color: aliceblue"
+              class="im6"
+            >
+              <b>Log In</b>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
